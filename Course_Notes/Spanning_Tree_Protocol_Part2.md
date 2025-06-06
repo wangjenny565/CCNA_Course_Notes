@@ -13,6 +13,7 @@ STP STATES
 
 - NON-DESIGNATED PORTS are in a BLOCKING state
 - Interfaces in a BLOCKING state are effectively disabled to prevent loops
+- Interfaces in a Blocking state recieve STP BPDUs
 - Interfaces in a BLOCKING state do NOT Send/Receive regular network traffic
 - Interfaces in a BLOCKING state do NOT forward STP BPDUs
 - Interfaces in a BLOCKING state do NOT learn MAC ADDRESSES
